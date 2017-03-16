@@ -13,8 +13,12 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
+<<<<<<< HEAD
         // replace this example code with whatever you need
         echo "lolo";
+=======
+        echo "lolilol";
+>>>>>>> 6d228ef6f99bfc1acb3b7c3a1e027eebc55366ed
         return $this->render('default/index.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
         ]);
