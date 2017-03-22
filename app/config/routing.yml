@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 user:
     resource: "@UserBundle/Resources/config/routing.yml"
+=======
+form_projectmail:
+    resource: "@FormProjectmailBundle/Resources/config/routing.yml"
+>>>>>>> 058624ea18e26c218b89345014ea7f42a3c12f1e
     prefix:   /
 
 app:

@@ -16,8 +16,12 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
+<<<<<<< HEAD
             new FOS\UserBundle\FOSUserBundle(),
             new UserBundle\UserBundle(),
+=======
+            new FormProject\mailBundle\FormProjectmailBundle(),
+>>>>>>> 058624ea18e26c218b89345014ea7f42a3c12f1e
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
